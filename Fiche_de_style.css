@@ -1,0 +1,64 @@
+header {
+	text-align: center;
+	display: block;
+}
+header h1 {
+	color: white;
+	background-color: #d04f62;
+}
+a{
+	text-decoration: none;
+}
+header ul li{
+	list-style: none;
+	flex-basis: 100%;
+}
+header ul{
+	padding: 0px;
+	display: flex;
+}
+header ul li a{	
+	background-color: rgb(73, 73, 73);
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+}
+footer{
+	background-color: #d04f62;
+	padding: 1px;
+}
+.presentation{
+	display: flex;
+}
+.presentation p{
+	flex-basis: 45%;
+	margin-right: 5px;
+	padding-left: 40px;
+}
+.presentation img{
+	flex-basis: auto;
+	height: 175px;
+	width: auto;
+	margin-left: 5px;
+	padding-left: 250px;
+}
+section h2{
+	text-align: center;
+}
+.F1 img{
+	flex-basis: 25%;
+	height: auto;
+	width: 40%;
+	margin-bottom: 15px;
+}
+.F1{
+	display: flex;
+	flex-grow: 1;
+}
+.F1 p{
+	flex-basis: 70%;
+}
+body h2{
+	text-align: center;
+}
